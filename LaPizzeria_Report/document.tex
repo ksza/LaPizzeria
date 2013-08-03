@@ -1,0 +1,51 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage{ucs}
+\usepackage{listings}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[top=3.5cm, bottom=3.5cm, left=2.5cm, right=2.5cm]{geometry}
+
+%A Few Useful Packages
+\RequirePackage{color,graphicx}
+
+\usepackage[pdftex, pdfauthor={Anita Bejan, Karoly Szanto},
+    pdftitle={laPizzeria-group8)},
+    linkcolor=black, urlcolor=black, citecolor=black, bookmarks=true,
+    bookmarksopen=true, bookmarksnumbered=true, colorlinks=true, plainpages=false, pdfpagelabels]{hyperref}
+
+\RequirePackage{color,graphicx}
+
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\title{IWJX \\ \emph{LaPizzeria (JSP and JSF)}}
+\author{
+Cristina Anita Bejan \href{mailto:cabe@itu.dk}{cabe@itu.dk}
+K\'aroly Sz\'ant\'o \href{mailto:ksza@itu.dk}{ksza@itu.dk}\\
+}
+\date{April, 2011}
+
+\begin{document}
+\maketitle{}
+
+\input{sec_introduction}
+
+\input{sec_thesystem}
+
+\input{sec_discussion}
+
+\input{sec_conclusions}
+
+\appendix
+\input{sec_appendix}
+
+%\nocite{*}
+%\bibliographystyle{alpha}
+%\bibliography{bibliography}
+
+\end{document}

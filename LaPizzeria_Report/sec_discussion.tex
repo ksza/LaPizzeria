@@ -1,0 +1,24 @@
+\section{Discussion}
+\label{sec.discussion}
+In this section we will highlight the main differences between the
+implementation using JSP and JSF.\\\\
+JavaServer Faces provides a framework that simplifies the development and 
+integration of web based user interfaces, based on MVC pattern. It is based on
+component driven UI design model. It makes use of a well defined model based on managed
+beans. The controller is represented by FacesServlet, which decides
+the view that is required, processes events, builds
+and renders the response.\\\\
+JavaServer Pages is used to serve dynamically generated web pages (such as HTML
+and XML).\\\\ 
+For the model layer, JSF provides Managed Beans, which is a dependency injection
+system.\\\\
+For the controller in JSP a HttpServlet is used, which contains all the logic.
+The flow of the application is determined using a parameter saved in the
+request, which is then parsed. On the other hand in JSF, the FacesSevlet is
+configured using a xml file, where all the necessary information is provided.
+The flow of the application is established using navigation rules.
+\\\\
+The view in JSP provides no standard UI compoments,
+everything that is displayed is standard HTML, whereas in JSF we have UI components like Button, 
+Form, etc. JSF also provides event handling of the components (UI elements are statefull objects)
+and it is done in Java. In JSP the event handling is done by HTTP.
